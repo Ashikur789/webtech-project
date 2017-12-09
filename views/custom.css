@@ -1,0 +1,237 @@
+body { font-family: helvetica, monospace, sans-serif; }
+h1, h2, h3, h4, h5, h6 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+form table th { text-align: left; }
+table, th, td {
+    text-align: left;
+    border: 1px solid #ececec;
+    border-collapse: collapse;
+}
+
+ul li { list-style: none; }
+
+.container {
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    background: #e3e3e3;
+}
+
+.login-panel {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+.password-recovery-panel {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: blue;
+}
+
+.banner {
+    width: 30%;
+    height: inherit;
+    background: yellow;
+    float: left;
+}
+
+.nav {
+    width: 30%;
+    height: inherit;
+    background: lime;
+    float: right;
+}
+
+.nav li {
+    display: inline;
+}
+
+.side-panel {
+    width: 25%;
+    height: 668px;
+    background: red;
+    float: left;
+}
+
+.side-panel .sec-1 {
+    height: 225px;
+    background: magenta;
+}
+
+.side-panel-title {
+    width: 100%;
+    height: 35px;
+    background: green;
+}
+
+.side-panel-title h2 {
+    margin-left: 20px;
+}
+
+.main {
+    width: 75%;
+    height: 668px;
+    background: cyan;
+    float: left;
+}
+
+.wrap {
+    width: 97%;
+    height: 645px;
+    background: brown;
+    margin: 10px;
+    border: 1px solid #e3e3e3;
+    position: relative;
+}
+
+.box-1 {
+    width: 225px;
+    height: 150px;
+    background: white;
+    float: left;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+}
+
+.box-3 {
+    width: 720px;
+    height: 200px;
+    background: white;
+    float: left;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+}
+
+.search-panel {
+    width: 720px;
+    height: 50px;
+    background: green;
+    float: left;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+}
+
+.search-panel ul li {
+    display: inline;
+}
+
+.search-panel input[type=text] {
+    width: 400px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    float: left;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.student-info {
+    width: 520px;
+    height: inherit;
+    background: maroon;
+    float: left;
+}
+
+.registration-section {
+    width: auto;
+    height: inherit;
+    background: white;
+}
+
+.control-panel {
+    width: 720px;
+    height: 50px;
+    background: green;
+    float: left;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+}
+
+.control-panel .controls {
+    width: 500px;
+    background: magenta;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+.course-title {
+    width: 300px;
+    height: 150px;
+    background: white;
+    float: left;
+}
+
+.time-schedule {
+    width: 300px;
+    height: 150px;
+    background: white;
+    float: right;
+}
+
+.info-sec {
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin-top: 20px;
+    float: left;
+    clear: both;
+}
+
+.info-sec ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.status {
+    color: green;
+    margin-left: 300px;
+}
+
+
+.chat-box {
+    text-align:left;
+    margin-top: 10px;
+    margin-bottom:20px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    float: left;
+    border:1px solid #ACD8F0;
+}
+
+.message-box {
+    width:430px;
+    height: 50px;
+    background: white;
+    overflow: hidden;
+}
